@@ -45,3 +45,27 @@ quando viene utilizzato aggiunge alla repository locale tutte le nuove commit pr
 è una sorta di aggiornamento della repository locale, questo comando viene utilizzato quando per esempio su un computer c'è
 già la repository con il progetto ma si ha una versione vecchia di esso e quindi si ha la necessità
 di aggiornarla.
+
+8) Descrivi cosa sono i rami di sviluppo in GIT (branches). Spiega inoltre come si
+creano, come ci si sposta in un ramo esistente, come si uniscono le modifiche
+di un ramo in un altro e come vedere il ramo corrente, attenendoti ai comandi
+visti in classe.
+
+I rami di sviluppo sono una caratteristica fondamentale di git, essi sono una sorta
+di flussi di sviluppo paralleli al ramo principale (main) questi rami vengono creati per sviluppare 
+delle nuove funzionalità o per corregere dei bug del software in modo da lasciare nel branch main
+la versione del software funzionante  e "pulita", vengono nutilizzati anche come forma di sicurezza
+perchè nel caso si incorra in un errore grave durante lo sviluppo del software si ha sempre nel 
+ramo principale la versione del software completamente funzionante.
+
+Per creare un nuovo ramo si usa il comando git checkout -b "" (dove ho messo gli apici va inserito il nome del branch).
+
+Per spostarsi un ramo esistante si usa il comando git checkout "" (dove ho messo gli apici va inserito il nome del branch).
+
+Per unire le modifiche di un ramo ad un'altro innanzittuto ci si sposta nel ramo che si vuole unire all'altro
+e poi si utulizza il comando git merge "" (dove ho messo gli apici va inserito il nome del branch).
+
+Per vedere il ramo corrente si utilizza git status.
+
+
+
