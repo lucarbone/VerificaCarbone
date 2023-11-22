@@ -68,4 +68,7 @@ e poi si utulizza il comando git merge "" (dove ho messo gli apici va inserito i
 Per vedere il ramo corrente si utilizza git status.
 
 
+9) Spiega di cosa si occupa l’ingegneria del software
 
+L'ingegneria del software è quella professione che si occupa dell'ideazione, sviluppo e mantenimento
+del software.
