@@ -21,3 +21,14 @@ Il comando che viene utilizzato è git log.
 5) Scrivi il comando per effettuare il rollback ad una commit precedente
 Il comando che si utilizza per effettuare il rollback ad una commit precedente è 
 git reset --hard "", dove ho messo gli apici va inserito il codice hash della commit a cui si vuole tornare.
+
+6) Scrivi due motivazioni per giustificare l’utilizzo di GIT
+
+La prima motivazione è il fatto che git è diventato uno standard nello sviluppo software di conseguenza
+qualsiasi organizzazione o anche singolo utente che deve sviluppare un software lo utilizza.
+
+La seconda motivazione riguarda i vantaggi che ti offre git, controllo delle versioni, commit, branching, reset..
+è un software  che ti permette di avere un controllo totale e ben strutturato su quello su cui stai lavorando,
+se non ci fosse git sarebbe un grandissimo problema gestire grandissimi progetti dove magari lavorano anche
+migliaia di utenti diversi. E' talmente utile che quando qualsiasi utente che impara ad utilizzarlo non smetterà mai
+perchè git da un aiuto significativo ed unico.
