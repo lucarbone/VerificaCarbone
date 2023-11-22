@@ -32,3 +32,16 @@ La seconda motivazione riguarda i vantaggi che ti offre git, controllo delle ver
 se non ci fosse git sarebbe un grandissimo problema gestire grandissimi progetti dove magari lavorano anche
 migliaia di utenti diversi. E' talmente utile che quando qualsiasi utente che impara ad utilizzarlo non smetterà mai
 perchè git da un aiuto significativo ed unico.
+
+7) Spiega la differenza tra git clone e git pull.
+
+Git clone e git pull vengono utilizzati in contesti differenti, git clone clona la repository online in quella
+locale quindi è come se si creasse una copia identica della repository online in locale, questo tipo
+di comando viene utilizzato quando su un computer non vi è alcuna repository riferita al progetto in 
+cloud quindi si ha la necessita di metterlo sul proprio computer.
+
+Git pull viene utilizzato quando si vuole sincronizzare la propria repository locale con quella online, git pull 
+quando viene utilizzato aggiunge alla repository locale tutte le nuove commit presenti in quella online,
+è una sorta di aggiornamento della repository locale, questo comando viene utilizzato quando per esempio su un computer c'è
+già la repository con il progetto ma si ha una versione vecchia di esso e quindi si ha la necessità
+di aggiornarla.
