@@ -4,3 +4,7 @@ VERIFICA LUCA CARBONE 4E 22\11\2023
  1) Le commit create in una repository locale, vengono sincronizzate
 automaticamente con la repository online collegata?
 FALSO
+
+2) Qual è il nuovo nome standard del branch principale utilizzato come
+convenzione in GIT?
+MAIN
