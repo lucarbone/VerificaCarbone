@@ -17,3 +17,7 @@ git add -> git commit -> git push
 branch in cui ci si trova e i loro hashcode?
 
 Il comando che viene utilizzato è git log.
+
+5) Scrivi il comando per effettuare il rollback ad una commit precedente
+Il comando che si utilizza per effettuare il rollback ad una commit precedente è 
+git reset --hard "", dove ho messo gli apici va inserito il codice hash della commit a cui si vuole tornare.
